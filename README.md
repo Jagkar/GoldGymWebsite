@@ -9,10 +9,10 @@ Contents:
 - about.html: About Us Page
 - login.html: Login Page
 
-/css/:
+Css:
 - style.css: Main stylesheet for consistent design
 
-/img/:
+Img:
 - Various image assets used across the website
 
 Feel free to contribute or report issues.
