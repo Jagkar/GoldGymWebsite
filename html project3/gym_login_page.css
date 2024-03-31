@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(34, 34, 39);
+    border-top: solid gold;
+}
+.container{
+    padding: 10px 1%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a {
+    color: #fff;
+    /* background-attachment: fixed; */
+    border-bottom: solid rgb(246, 195, 65);
+    text-decoration: none;
+    padding: 7px;
+    font-size: large;
+    transition: 0.4s;
+}
+nav ul li a:hover{
+    background-color: #fff;
+    color:black;
+}
+nav .nav-banner img{
+    border-radius: 16px;
+}
+.header-text{
+    margin: 3%;
+    
+}
+.header-text h1,h2{
+    padding: 1px 0;
+    color: #fcb103;
+    font-size: 55px;
+    text-align: center;
+}
+.header-text .header-item{
+    font-style:italic ;
+    font-size: large;
+    color:white;
+    font-size:25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.combine_two_element{
+    /* border: 2px solid gold; */
+    height: 500px;
+    width: 700px;
+    /* margin: 100px 300px; */
+    margin: auto;
+    margin-top: 30px;
+}
+#part_1_login{
+    background-color: #aaebf2;
+
+}
+#part2_sign_in{
+    background-color: #aaebf2;
+
+
+
+}
+.same_box{
+    /* display: inline-block; */
+    float:left;
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 500px;
+    width: 50%;
+    text-align: center;
+    color: black;
+}
+.inside_login p{
+    font-size: 30px;
+    text-align: left;
+    margin:25px 35px;
+}
+.inside_login input{
+    text-align: left;
+    /* margin:30px 35px; */
+    padding:10px 20px;
+    margin:auto;
+}
+.inside_login a{
+    font-size: 30px;
+    background-color: rgb(35, 137, 153);
+    border-radius: 2px;
+    text-decoration: none;
+    margin:4px 80px;
+    color:white;
+    padding:4px;
+}
+a:hover{
+    background-color: #fcb103;
+}

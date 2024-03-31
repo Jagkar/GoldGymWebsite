@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(gym_image1_on\ about_page.jpg);
+    background-attachment: fixed;
+    /* height: 100vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: gold;
+    border-top: solid gold;
+    border-bottom: 2px solid goldenrod;
+    
+
+}
+.container{
+    padding: 10px 1%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a {
+    color: #fff;
+    border-bottom: solid goldenrod;
+    text-decoration: none;
+    padding: 7px;
+    font-size: large;
+    transition: 0.4s;
+}
+nav ul li a:hover{
+    background-color: #fff;
+    color:black;
+}
+nav .nav-banner img{
+    border-radius: 16px;
+}
+.header-text{
+    margin: 3%;
+    
+}
+.header-text h1,h2{
+    padding: 1px 0;
+    color: #fcb103;
+    font-size: 55px;
+    text-align: center;
+}
+.header-text .header-item{
+    font-style:italic ;
+    font-size: large;
+    color:white;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+#img1_ourstory img{
+    display: block;
+    float: left;
+    height: 300px;
+    width: 420px;
+    margin:2px 28px;
+}
+/* }
+#img2_ourstory img{
+    display: block;
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin:2px 20px;
+}
+#img3_ourstory img{
+    display: block;
+    float: left;
+    height: 233px;
+    width: 200px;
+    margin:2px 20px;
+} */
+.ourstory{
+    display: block;
+    float:left;
+    height:200px;
+    /* width:300px; */
+    border: 2px solid red;
+
+}
